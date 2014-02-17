@@ -31,37 +31,45 @@ a {
 	list-style-type: none;
 }
 
-#search {
+.search {
 	text-align: center;
+	display: inline-block;
+	margin-left: 451px;
 }
 
 #icon {
 	border-radius: 100%;
 }
+
+
 #logo {
 	padding-top: 120px;
-}
-#search_field {
-	height: 30px;
-	width: 580px;
-}
-div container {
-	display: table;
-}
-table {
-	margin: 0 auto;
-	width: 45%;
-	padding: 1;
-	spacing: 0;
 	
 }
-#voicesearch {
-	margin-left: -55px;
-	width: 35px;
-	height: 35px;
+
+.search_field {
+	height: 38px;
+	width: 620px;
+	display: block;
+	float: left;
+	
 }
 
-div button {
+.voicesearch {
+	margin-left: -45px;
+	width: 45px;
+	height: 45px;
+	display: block;
+	float: left;
+	
+}
+.button-class {
+	width: 96px;
+	height: 29px;
+	display: inline;
+}
+
+button {
 	height: 30px;
 	width: 115px;
 	background-clip: padding-box;
