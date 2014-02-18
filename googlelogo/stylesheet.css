@@ -1,26 +1,19 @@
-/*
+
 * {
-	border: 1px dashed blue;
+	/* border: 1px dashed blue; */
+	padding: 0;
+	margin: 0;
 }
-*/
 #header {
 	width: 100%;
 	height: 30px;
-	position: fixed;
-	left: 0;
-	top: 0;
-}
-#header {
-	position: relative;
 	float: right;
-	margin-top: -10px;
-	padding: 10px;
-	list-style: none;
-
+	
 }
 #header a {
 	float: right;
 } 
+
 a {
 	color: #666666;
 	text-decoration: none;
@@ -30,38 +23,39 @@ a {
 	display: inline;
 	list-style-type: none;
 }
+a:hover {
+	text-decoration: underline;
+}
+
 
 .search {
 	text-align: center;
-	display: inline-block;
-	margin-left: 451px;
+	padding-top: 120px;
 }
 
 #icon {
 	border-radius: 100%;
-}
-
-
-#logo {
-	padding-top: 120px;
-	
+	margin-right: 18px;
 }
 
 .search_field {
+	position: relative;
+	top:-17px;
+	right: -5px;
 	height: 38px;
-	width: 620px;
-	display: block;
-	float: left;
-	
+	width: 620px;	
+}
+#logo {
+	padding-top: 120px;
 }
 
 .voicesearch {
-	margin-left: -45px;
+	position: relative;
+	z-index: 100;
+	margin-left: -40px;
 	width: 45px;
 	height: 45px;
-	display: block;
-	float: left;
-	
+
 }
 .button-class {
 	width: 96px;
@@ -106,8 +100,4 @@ button {
 	margin-right: 30px;
 	float: right;
 
-}
-
-a:hover {
-	text-decoration: underline;
 }
