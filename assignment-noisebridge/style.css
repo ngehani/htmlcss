@@ -1,0 +1,9 @@
+.outer {
+	height: 200px;
+	width: 200px;
+}
+.inner {
+	width: 100px;
+	height: 100px;
+
+}

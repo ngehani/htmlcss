@@ -1,0 +1,13 @@
+.outer:before, .outer:after {
+	content: " ";
+	display: table;
+		
+}
+.inner {
+	float: right;
+
+}
+.outer:after {
+	clear: both;
+}
+
