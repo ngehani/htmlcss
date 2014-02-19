@@ -1,0 +1,65 @@
+@import 'css/bootstrap.min.css';
+
+body {
+	background-color: #070719;
+}
+
+.navbar-default {
+	max-height: 40px;
+	background-color: #428bca;
+	border-color: #357ebd;
+	color: white;
+}
+.navbar-right {
+	float: right;
+	
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.col-xs-6 {
+    float:none !important;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+ }
+
+.btn-group-wrap {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.btn-group {
+    margin: 0 auto; 
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#icon {
+	border-radius: 100%;
+	margin-right: 18px;
+}
