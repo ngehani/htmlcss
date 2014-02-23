@@ -79,7 +79,7 @@ button {
 #footer {
 	position: absolute;
 	width: 100%;
-  overflow: hidden;
+  	overflow: hidden;
 	text-align: center;
 	left: 0;
 	bottom: 0;
