@@ -38,6 +38,10 @@ a:hover {
 }
 
 .search_field {
+	background-image: url('icon.gif');
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: 18px 23px;
 	position: relative;
 	top:-17px;
 	right: -5px;
@@ -48,14 +52,6 @@ a:hover {
 	padding-top: 120px;
 }
 
-.voicesearch {
-	position: relative;
-	z-index: 100;
-	margin-left: -40px;
-	width: 45px;
-	height: 45px;
-
-}
 .button-class {
 	width: 96px;
 	height: 29px;
